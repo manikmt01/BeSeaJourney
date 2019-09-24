@@ -1,0 +1,389 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   
+   /*header start*/
+   .manu ul li {
+    padding: 5px 0px !important;
+}
+.manu ul li a {
+    text-align: right;
+}
+   /*header end*/
+/*banner start*/
+.banner {
+  padding: 140px 0 100px 0;
+}
+.banner_left {
+  padding-top: 0px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.banner_left h1 {
+  line-height: 40px;
+  letter-spacing: 2px;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.banner_right h4 {
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 20px;
+}
+/*banner end*/
+/*buatyfull start*/
+.b_single1 {
+
+    position: initial;
+    top: 0px;
+    margin-left: 0px;
+    margin-bottom:30px;
+}
+.srrow_img {
+    top: 0;
+    left: 90px;
+}
+/*buatyfull end*/
+/*service start*/
+.service {
+  padding-top: 940px;
+  text-align: center;
+}
+
+/*service end*/
+/*islands start*/
+.islands {
+  padding-bottom: 50px;
+}
+.islands_single {
+  padding: 0;
+  margin-bottom: 50px;
+}
+.islands_single img {
+  margin-bottom: 20px;
+}
+
+/*islands end*/
+.islands h1, .about h1 {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+.gallery, .about, .meeting, .clients {
+  padding-bottom: 60px;
+}
+.gallery{
+  padding-bottom: 100px;
+}
+/*meeting start*/
+.meeting_inner {
+  padding: 20px;
+  text-align: center;
+}
+.item1 img {
+  margin-top: 0;
+}
+.item2 h2 {
+  margin-bottom: 20px;
+}
+.item4 h4 {
+  text-align: center;
+}
+/*meeting end*/
+/*sail start*/
+.sail {
+  padding-top: 60px;
+  padding-bottom: 185px;
+}
+.sail_contant h1 {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+/*sail end*/
+/*contant start*/
+.contact h1 {
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  padding-top: 0px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.contact_button {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+/*contant end*/
+/*footer start*/
+footer {
+  text-align:  center;
+}
+.social {
+  text-align: center;
+}
+/*footer end*/
+
+.slider_contet blockquote {
+  line-height: 23px;
+  font-size: 16px;
+  width: 100%;
+  font-weight: 400;
+}
+
+
+
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+ /*header start*/
+   .manu ul li {
+    padding: 5px 0px !important;
+}
+.manu ul li a {
+    text-align: right;
+}
+   /*header end*/
+
+/*banner start*/
+.banner {
+    padding: 140px 0 180px 0;
+}
+.banner_left {
+    padding-top: 50px;
+}
+.banner_left h1 {
+    line-height: 48px;
+    letter-spacing: 3px;
+    font-size: 42px;
+    margin-bottom: 35px;
+}
+.banner_right h4 {
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 20px;
+}
+/*banner end*/
+/*buatyfull start*/
+.b_single1 {
+
+    position: initial;
+    top: 0px;
+    margin-left: 0px;
+    margin-bottom:30px;
+}
+.srrow_img {
+    top: 0;
+    left: 90px;
+}
+/*buatyfull end*/
+/*service start*/
+.service {
+    padding-top: 980px;
+    text-align: center;
+}
+
+/*service end*/
+/*islands start*/
+.islands {
+  padding-bottom: 50px;
+}
+.islands_single {
+  padding: 0;
+  margin-bottom: 60px;
+}
+.islands_single img {
+  margin-bottom: 25px;
+}
+
+
+/*islands end*/
+/*meeting start*/
+.meeting_inner {
+  padding: 20px;
+  text-align: center;
+}
+.item1 img {
+  margin-top: 0;
+}
+.item2 h2 {
+  margin-bottom: 20px;
+}
+.item4 h4 {
+  text-align: center;
+}
+/*meeting end*/
+/*sail start*/
+.sail {
+  padding-top: 60px;
+  padding-bottom: 185px;
+}
+.sail_contant h1 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+/*sail end*/
+/*contant start*/
+.contact h1 {
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  padding-top: 0px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.contact_button {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+/*contant end*/
+
+/*footer start*/
+footer {
+  text-align:  center;
+}
+.social {
+  text-align: center;
+}
+/*footer end*/
+
+
+
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+ /*header start*/
+   .manu ul li {
+    padding: 5px 0px !important;
+}
+.manu ul li a {
+    text-align: right;
+}
+   /*header end*/
+
+/*banner start*/
+.banner {
+    padding: 120px 0 300px 0;
+}
+.banner_left h1 {
+    line-height: 60px;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+/*banner end*/
+ /*bautyful start*/
+    .srrow_img {
+    top: 410px;
+    left: 190px;
+}
+    /*bautyful end*/
+
+/*service start*/
+.service {
+    text-align: center;
+}
+
+/*service end*/
+
+/*islands start*/
+.islands_single {
+  padding: 0;
+  margin-bottom: 60px;
+}
+.islands_single img {
+  margin-bottom: 25px;
+}
+
+/*islands end*/
+
+/*meeting start*/
+.meeting_inner {
+  padding: 20px;
+  text-align: center;
+}
+.item1 img {
+  margin-top: 0;
+}
+.item2 h2 {
+  margin-bottom: 20px;
+}
+.item4 h4 {
+  text-align: center;
+}
+/*meeting end*/
+/*sail start*/
+.sail {
+  padding-top: 50px;
+  padding-bottom: 180px;
+}
+/*sail end*/
+/*contact start*/
+.contact h1 {
+  font-size: 42px;
+  line-height: 55px;
+  letter-spacing: 2px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+/*contact end*/
+
+
+
+
+
+    
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*banner start*/
+    .banner_left h1 {
+    line-height: 70px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+    /*banner end*/
+
+    /*manu start*/
+.manu ul li {
+   padding: 0 15px !important;
+}
+    /*manu end*/
+
+    /*banner start*/
+    .banner {
+    padding: 140px 0 215px 0;
+}
+    /*banner end*/
+   
+
+
+
+
+
+
+
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+    
+}

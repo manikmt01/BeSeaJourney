@@ -1,0 +1,399 @@
+body{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 15px;
+	color: #080c12;
+}
+
+
+/*header and banner bg img start*/
+.hd_bg_img{
+	background-image: url(../img/hd_banner_bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/******************* header start **********************/
+header{
+	padding: 5px 0;
+	background: rgba(70,98,51,.4);
+}
+.manu_bar {
+	color: #fff;
+	font-size: 25px;
+}
+.manu ul li {
+	padding: 0 20px !important;
+}
+.manu ul li:last-child{
+	padding: 0 !important;
+}
+.manu ul li a{
+	font-weight: 500;
+	font-size: 16px;
+	color: #fff !important;
+	padding: 0 !important;
+	transition: all ease .6s;
+}
+.manu ul li a:hover,#active{
+	color: #e8d04b !important;
+}
+/******************* header end **********************/
+/****************** banner start ****************/
+.banner {
+    padding: 180px 0 430px 0;
+}
+.banner_left {
+    padding-top: 80px;
+}
+.banner_left h1{
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	line-height: 80px;
+	letter-spacing: 5px;
+	font-weight: 900;
+	font-size: 80px;
+	margin: 0px;
+	padding: 0px;
+	color: rgba(255, 255, 255, 0.9);
+	margin-bottom: 50px;
+}
+.banner_left a {
+	background-color: rgb(255, 255, 255);
+	font-weight: 500;
+	font-size: 16px;
+	border-color: rgba(255, 255, 255, 0);
+	border-radius: 5px;
+	padding: 10px 30px 10px 30px;
+	color: rgb(0, 0, 0);
+	transition: all ease .6s;
+}
+.banner_left a:hover {
+	background-color: rgb(250, 228, 104,.8);
+	color: #fff;
+	text-decoration: none;
+}
+.banner_right{}
+.banner_right img{}
+.banner_right h4 {
+	font-weight: 700;
+	font-size: 23px;
+	border-color: rgb(8, 12, 18);
+	margin: 0px;
+	color: rgb(255, 255, 255);
+	margin-top: 30px;
+	line-height: 30px;
+}
+/****************** banner end ****************/
+/*header and banner bg img end*/
+/************ beautiful start *************/
+.beautiful{
+	background-image: url(../img/bg.jpg);
+	background-position: left top;
+	background-repeat:repeat;
+	height: 605px;
+}
+.b_position{
+	position: relative;
+}
+.srrow_img {
+    position: absolute;
+    display: block;
+    top: 320px;
+    left: 210px;
+}
+.srrow_img img{}
+.b_single1 {
+    padding: 25px;
+    background-color: #d0cdc6;
+    position: absolute;
+    top: -120px;
+    margin-left: 20px;
+}
+.b_single1 img{
+	margin-bottom: 15px;
+}
+.b_single1 h4 {
+	color: #3f2f20;
+	font-size: 28px;
+	line-height: 34px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.b_single1 p{
+	color: #3f2f20;
+}
+/************ beautiful end *************/
+
+/************ service start **************/
+.service {
+    background-image: url(../img/bg.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+}
+.service_single{}
+.service_single img {
+    margin-bottom: 40px;
+}
+.service_single h4 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.service_single p{
+	color: #fff;
+}
+/************ service end **************/
+/* outer_bg start */
+.outer_bg{
+	background-image: url(../img/sj-trip-top-decor.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* outer_bg end */
+
+/******* islands start ********/
+.islands{
+	background-color: #f1f1f0;
+	padding-bottom: 100px;
+}
+.islands h1, .about h1{
+	 font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.islands_single {
+    padding: 20px;
+}
+.islands_single img{
+	margin-bottom: 50px;
+}
+.islands_single h4{
+	 font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-bottom: 30px;
+}
+.islands_single p{
+	margin-bottom: 15px;
+}
+/******* islands end********/
+
+
+/************ gallery start *************/
+.gallery,.about, .meeting, .clients{
+	background-color: #f1f1f0;
+	padding-bottom: 100px;
+}
+.gallery_title {
+    margin-bottom: 50px;
+}
+.gallery_title h1{
+	 font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.c_slider{
+	bottom: -80px;
+}
+
+.c_slider .active {
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.c_slider li{
+	background-color: rgb(232, 208, 75);
+	width: 12px;
+    height: 12px;
+}
+
+/************ gallery end *************/
+/************ about start **************/
+.about{}
+.about h1{}
+/************ about end **************/
+
+/********** meeting start ************/
+.meeting{}
+.meeting_inner {
+    background-color: #e8e8e8;
+    padding: 40px 30px 25px 20px;
+}
+.item1{}
+.item1 img {
+    margin-top: -15px;
+}
+.item2{}
+.item2 h2{
+	font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+}
+.item3{}
+.item3 p{}
+.item4{}
+.item4 h4{
+	font-size: 23px;
+    line-height: 27px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+/********** meeting end *********** */
+/*********** clients start ***********/
+.clients{}
+.slider_contet{}
+.slider_contet img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.slider_contet blockquote {
+    background: none;
+    line-height: 25px;
+    font-style: italic;
+    font-size: 17px;
+    width: 78%;
+    margin: auto;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.hr_item{}
+.hr_item span {
+    width: 5px;
+    height: 5px;
+    background-color: #e8d04b;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+.text_button{}
+.text_button h5{
+	    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+}
+.text_button span{
+	color: #a8a8a8;
+}
+.clients_indicators {
+    bottom: -70px;
+}
+.clients_indicators li {
+    background-color: rgb(232, 208, 75);
+    width: 12px;
+    height: 12px;
+}
+.clients_indicators .active {
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+/*********** clients end ***********/
+/*********** sail with us start**********/
+.sail{
+	background-image: url(../img/sj-bottom-bg3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	    padding-top: 125px;
+    padding-bottom: 300px;
+}
+.sail_contant{}
+.sail_contant h1{
+	    font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 80px;
+}
+.sail_contant a {
+    font-size: 120%;
+    line-height: 120%;
+    background-color: #e8d04b!important;
+    color: #7d4209;
+    padding: 18px 33px;
+    border-radius: 10px;
+    position: relative;
+    transition: all ease .6s;
+}
+.sail_contant a:hover {
+	text-decoration: none;
+}
+.sail_contant a:after{
+	    content: "";
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background: rgba(0,0,0,.05);
+    z-index: 1;
+    transition: all .3s;
+    opacity: 0;
+    transition: all ease .8s;
+}
+.sail_contant a:hover:after{
+	width: 100%;
+	opacity: 1;
+}
+/*********** sail with us end**********/
+/*********** contact start************/
+.contact{
+	background-image: url(../img/bg.jpg);
+	background-repeat: repeat;
+	color: #f1f1f0;
+	font-size: 16px;
+}
+.contact h1{
+	 font-size: 50px;
+    line-height: 57px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #f1f1f0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+.contact_button{
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+/*********** contact end************/
+/********* footer start ********* */
+footer {
+    padding: 20px 0;
+}
+footer p{}
+footer p a{
+	color: #fff;
+	font-weight: 700;
+	transition: all ease .6s;
+	margin-bottom: 0;
+}
+footer p a:hover{
+	color: #e8d04b;
+}
+.social{}
+.social i {
+    color: #f1f1f0;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.social i:hover{
+	color: #e8d04b;
+}
+/********* footer end ********* */
